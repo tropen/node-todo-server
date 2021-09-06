@@ -16,11 +16,23 @@
   "license": "Unlicense",
   "homepage": "https://github.com/tropen/node-todo-server#readme",
   "dependencies": {
+<<<<<<< HEAD
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.3"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.0",
+=======
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-validator": "^6.12.1"
   },
   "devDependencies": {
+>>>>>>> initial
     "eslint": "^7.32.0",
     "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-import": "^2.24.2",
@@ -29,6 +41,20 @@
     "nodemon": "^2.0.12"
   },
   "eslintConfig": {
+<<<<<<< HEAD
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+    "rules": {
+      "semi": "error"
+    }
+=======
     "extends": "eslint:recommended"
+>>>>>>> initial
   }
 }
