@@ -1,6 +1,5 @@
 # node-todo-server
 
-<<<<<<< HEAD
 1. `git clone https://github.com/tropen/node-todo-server.git`
 2. `cd node-todo-server && cp .env-example .env`
 3. `npm install` dependencies installment
@@ -25,11 +24,3 @@ under authKey middleware:
 * `PATCH /api/v1/todo/check` - updates `done` field in doc. request.body must have the `_id` of todo 
 * `DELETE /api/v1/todo` - deletes doc from collection. request.body must have the `_id` of todo
 
-
-
-=======
-1. `git checkout https://github.com/tropen/node-todo-server.git`
-2. copy .env-example
-3`npm start` start server
-4. `npm run start:dev` start server in development mode with nodemon for faster development process
->>>>>>> initial
