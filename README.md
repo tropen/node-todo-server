@@ -12,7 +12,7 @@ To fix cors set `NODE_ENV=dev` in .env file
 
 ## Endpoints 🔨
 Api is available at `HOST:PORT` (default: `http://localhost:5000`) with the only prefix `/api/v1/`.
-Server is configured to be development. This disables CORS blocking for client-url `http://localhost:3000`
+Server is configured to be in `dev` mode. This disables CORS blocking for client-url `http://localhost:3000`
 
 public:
  * `POST /api/v1/signin` - returns AUTH_KEY
