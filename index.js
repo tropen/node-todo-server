@@ -10,6 +10,7 @@ db.connect();
 
 const todoRoute = require('./routes/TodoRoute');
 const authRoute = require('./routes/AuthRoute');
+const webWorkerRoute = require('./routes/WebWorkerRoute');
 const userRoute = require('./routes/UserRoute');
 const authKey = require('./middlewares/authKey');
 
@@ -29,6 +30,7 @@ app.use(express.urlencoded({ extended: true })); //application/x-www-form-urlenc
 app.use('/api/v1/signin', authRoute);
 app.use('/api/v1/todo', authKey, todoRoute);
 app.use('/api/v1/user', authKey, userRoute);
+app.use('/api/v1/worker', authKey, webWorkerRoute);
 
 // eslint-disable-next-line no-unused-vars
 app.use((error, req, res, next) => {
